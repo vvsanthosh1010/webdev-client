@@ -25,6 +25,16 @@ export default function Labs() {
             Kambaz
           </Link>
         </li>
+        <li>
+          <a
+            href="https://github.com/vvsanthosh1010/webdev-client"
+            id="wd-github"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub Repository
+          </a>
+        </li>
       </ul>
     </div>
   );
