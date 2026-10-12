@@ -36,7 +36,7 @@ export default function Float() {
         <div className="wd-float-left wd-dimension-landscape wd-bg-color-green wd-fg-color-white">
           My float
         </div>
-        My own paragraph wraps around the green box floated to the left. {LOREM}
+        My own paragraph wraps around the green box floated to the left. I usually hit gym regularly but I currently have back spasm so I couldn't be that regular. 
         <div className="wd-float-done" />
       </div>
 
