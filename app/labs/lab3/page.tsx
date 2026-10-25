@@ -31,6 +31,11 @@ import Classes from "./Classes";
 import Styles from "./Styles";
 import ClientComponentDemo from "./ClientComponentDemo";
 import ServerComponentDemo from "./ServerComponentDemo";
+import Add from "./Add";
+import Square from "./Square";
+import Highlight from "./Highlight";
+import PathParameters from "./PathParameters";
+import TodoList from "./todos/TodoList";
 
 export default function Lab3() {
   console.log("Hello World!");
@@ -70,6 +75,36 @@ export default function Lab3() {
       <Styles />
       <ClientComponentDemo />
       <ServerComponentDemo />
+      <Add a={3} b={4} />
+      {/* On your own */}
+      <Add a={10} b={20} />
+      {/* With AI */}
+      <div id="wd-ai-add">
+        <Add a={7} b={8} />
+      </div>
+      <h4>Square of 4</h4>
+      <Square>4</Square>
+      {/* On your own */}
+      <h4>Square of 9</h4>
+      <Square>9</Square>
+      {/* With AI */}
+      <p id="wd-ai-square-5">
+        Square of 5 = <Square>5</Square>
+      </p>
+      <hr />
+      <Highlight>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      </Highlight>
+      {/* On your own */}
+      <p>
+        <Highlight>Build it, break it, fix it: that is how I learn React.</Highlight>
+      </p>
+      {/* With AI */}
+      <p id="wd-ai-highlight">
+        <Highlight>Children can be any JSX</Highlight>
+      </p>
+      <PathParameters />
+      <TodoList />
     </div>
   );
 }
