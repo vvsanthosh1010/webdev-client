@@ -26,14 +26,14 @@ export default function House() {
       {house.bedrooms}
       <h5>bathrooms</h5>
       {house.bathrooms}
+      <h5>owners</h5>
+      {house.owners.join(", ")}
       <h5>yearBuilt</h5>
       {house.yearBuilt}
       <div id="wd-ai-garage">
         <h5>garage cars</h5>
         {house.garage.cars}
       </div>
-      <h5>owners</h5>
-      {house.owners.join(", ")}
       <h5>Number of properties</h5>
       {Object.keys(house).length}
       <h5>Data</h5>

@@ -14,7 +14,7 @@ export default function Lesson({
         <span className="wd-title">{title}</span>
         <GreenCheckmark />
       </div>
-      <ul className="wd-content mt-2 mb-0 list-disc ps-8">{children}</ul>
+      {children && <ul className="wd-content mt-2 mb-0 list-disc ps-8">{children}</ul>}
     </li>
   );
 }
