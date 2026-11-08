@@ -7,6 +7,7 @@ const LINKS = [
   { href: "/labs/lab1", id: "wd-lab1-link", label: "Lab 1", match: (p: string) => p.startsWith("/labs/lab1") },
   { href: "/labs/lab2", id: "wd-lab2-link", label: "Lab 2", match: (p: string) => p.startsWith("/labs/lab2") },
   { href: "/labs/lab3", id: "wd-lab3-link", label: "Lab 3", match: (p: string) => p.startsWith("/labs/lab3") },
+  { href: "/labs/lab4", id: "wd-lab4-link", label: "Lab 4", match: (p: string) => p.startsWith("/labs/lab4") },
   { href: "/", id: "wd-kambaz-link", label: "Kambaz", match: () => false },
   { href: "https://kambaz.dev/book/ch3", id: "wd-ai-book-ch3-link", label: "Book Ch3", match: () => false },
 ] as const;
