@@ -18,6 +18,7 @@ const activeStyle = {
   borderRadius: "4px",
   padding: "2px 8px",
   textDecoration: "none",
+  whiteSpace: "nowrap",
 };
 
 export default function TOC() {
